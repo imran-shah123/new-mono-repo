@@ -10,10 +10,7 @@ jobs:
   deploy:
     runs-on: ubuntu-18.04
     steps: 
-     run: |
-     ls 
-     pwd 
-     cd ghost-theme
+     run: cd ghost-theme
     steps:
       - uses: actions/checkout@master
       - uses: TryGhost/action-deploy-theme@v1.4.1
