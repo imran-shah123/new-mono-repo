@@ -6,6 +6,7 @@ on:
     branches:
       - master
       - main
+      - ghost-theme
 jobs:
   deploy:
     runs-on: ubuntu-18.04
@@ -15,6 +16,3 @@ jobs:
         with:
           api-url: ${{ secrets.GHOST_ADMIN_API_URL }}
           api-key: ${{ secrets.GHOST_ADMIN_API_KEY }}
-      - name: npm ci, build and test
-        run: |-
-         cd ghost-theme
