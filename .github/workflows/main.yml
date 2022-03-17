@@ -6,7 +6,6 @@ on:
     branches:
       - master
       - main
-      - ghost-theme
 jobs:
   deploy:
     runs-on: ubuntu-18.04
