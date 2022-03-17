@@ -11,6 +11,9 @@ jobs:
   deploy:
     runs-on: ubuntu-18.04
     steps:
+     run: | 
+     ls 
+     cd ghost-theme
       - uses: actions/checkout@master
       - uses: TryGhost/action-deploy-theme@v1.4.1
         with:
