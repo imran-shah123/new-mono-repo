@@ -1,0 +1,15 @@
+{
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest --coverage",
+        "start": "node index.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "jest": "^25.1.0",
+      "express": "*"
+    }
+}
